@@ -573,6 +573,10 @@ color:#428bca
     word-break: break-word;
 }
 
+.btn {
+  position: relative;
+  z-index: 10; /* garantit que le bouton est cliquable */
+}
 
 /* page headline
 ==================================== */
